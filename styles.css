@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html,body{height: 100vh;}
+body{
+  background-color: #eee;
+  font-family: Montserrat, Arial;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+#main{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: ;
+}
+.main-bg{
+  position:fixed;
+  background-color: white;
+  width: 60%;
+  height: 100%;
+  z-index: 0;
+}
+#title{
+  position: relative;
+  top: 10px;
+  color: #262626;
+}
+
+/*--------IMAGE--------*/
+#img-div{z-index: 1;}
+#img-div figure{
+  max-width: 400px;
+  display: inline-block;
+}
+#image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#img-caption{
+  font-size: 0.9em;
+  padding-top: 5px;
+}
+
+/*-------ARTICLE------*/
+#div-article{
+  text-align: center;
+  z-index: 1;
+}
+#div-article article{
+  max-width: 600px;
+  min-width: 200px;
+  width: 100%;
+  height: auto;
+  border-left:: 50px;
+  border-right: 50px;
+  padding-bottom: 70px;
+  display: inline-block;
+  }
+#tribute-info legend{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #262626;
+}
+#tribute-info p{
+  text-align: left;
+  color:#404040;
+}
+#tribute-info span {
+    color: black;
+    background-color: black;
+}
+#tribute-info span:hover{
+  color: white;
+}
+#tribute-link{
+  color: darkred;
+  text-decoration: none;
+}
+#tribute-link:hover{
+  color: darkgrey;
+}
+#tribute-link:visited{
+  color: darkred;
+}
+#tribute-link:visited:hover{
+  color: darkgrey;
+}
+#tribute-info div{
+  margin-top: 30px;
+}
+/*------FOOTER------*/
+footer {
+  bottom: 0;
+  width: 100%;
+  
+  height: 50px;
+  background-color: darkgrey;
+  z-index: 2;
+}
+footer a{
+  color: #262626;
+  text-decoration: none;
+}
+footer a:hover{
+  color: #D99177
+}
+footer a:visited{
+  color: #262626;
+}
+footer a:visited:hover{
+  color: #D99177;
+}
